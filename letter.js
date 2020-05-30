@@ -1,8 +1,7 @@
-debugger
 function Letter (letter){
     this.letter = letter;
     this.guessed = false;
-    this.display = Function (){
+    this.display = function (){
         if (this.guessed === false){
             return '_';
         }else{
